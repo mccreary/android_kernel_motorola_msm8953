@@ -677,6 +677,13 @@ config FSUSB42_MUX
 	  This option enables a device driver for the FSUSB42 which is a
 	  2 port High Speed USB/UART Switch.
 
+config MOTOMODS
+	tristate "Motorola Z Moto Mods"
+	default n
+	help
+	  This option enables support for Moto Mod peripherals for the
+	  Motorola Z family of handsets.
+
 source "drivers/misc/c2port/Kconfig"
 source "drivers/misc/eeprom/Kconfig"
 source "drivers/misc/cb710/Kconfig"
